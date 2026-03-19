@@ -1,0 +1,34 @@
+{
+  "metrics": [
+    {
+      "name": "median_dom_sold",
+      "label": "Speed to Sell (Median DOM)",
+      "weight": 0.30,
+      "direction": "lower_better"
+    },
+    {
+      "name": "months_supply",
+      "label": "Supply Tightness (Months Supply)",
+      "weight": 0.25,
+      "direction": "lower_better"
+    },
+    {
+      "name": "demand_pressure",
+      "label": "Demand Pressure",
+      "weight": 0.20,
+      "direction": "higher_better"
+    },
+    {
+      "name": "list_to_sale_ratio_pct",
+      "label": "Pricing Strength (List-to-Sale Ratio)",
+      "weight": 0.15,
+      "direction": "higher_better"
+    },
+    {
+      "name": "median_sold_price",
+      "label": "Price Level Fit",
+      "weight": 0.10,
+      "direction": "higher_better"
+    }
+  ]
+}
